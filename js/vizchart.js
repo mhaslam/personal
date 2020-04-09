@@ -1,7 +1,7 @@
 
 new roughViz.BarH({
     element: '#progSkills', // container selection
-    data: '/data/skills.csv',
+    data: 'data/skills.csv',
     labels: 'Technology',
     values: 'Level',
     interactive:false,
@@ -24,7 +24,7 @@ new roughViz.BarH({
 
   new roughViz.BarH({
     element: '#languages', // container selection
-    data: '/data/languages.csv',
+    data: 'data/languages.csv',
     labels: 'Language',
     values: 'Level',
     title: 'Languages',
@@ -45,7 +45,7 @@ new roughViz.BarH({
 
 new roughViz.Pie({
     element: '#experience', // container selection
-    data: '/data/experience.csv',
+    data: 'data/experience.csv',
     labels: 'Experience',
     values: 'Level',
     title: 'Experience',
