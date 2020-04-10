@@ -468,24 +468,38 @@ footer .footer-below {
 ======================*/
 
 
-/*colorChange
+/*override
+p{
+    primary: #e0ebe8 #18bc9c #80B3FF;
+
+    secondary: #4ab19a #2c3e50 #FD6E8A;
+    secondary-dark: #dc612c #233140 #A2122F;
+    text: #4ab19a;
+    off-white: #fdfdfc;
+}
+
 ======================*/
+
+p{
+    color: #{{ site.color.text }};
+    
+}
 .btn-outline {
     margin: 15px 20px 15px;
-    border: solid 2px #dc612c;
+    border: solid 2px #{{ site.color.secondary-dark }};
     font-size: 20px;
-    color: #194f6e;
+    color: #{{ site.color.text }};
     background: 0 0;
     transition: all .3s ease-in-out;
 }
 .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
-    border: solid 2px #dc612c;
-    color: #4ab19a;
-    background: #dc612c;
+    border: solid 2px#{{ site.color.secondary-dark }};
+    color: #{{ site.color.secondary }};
+    background: #{{ site.color.secondary-dark }};
 }
 
 section.success {
-    color: #{{ site.color.text }};
+    color: #{{ site.color.secondary }};
     background: #{{ site.color.primary }};
 }
 
@@ -512,13 +526,13 @@ hr.star-primary:after {
 
 header {
     text-align: center;
-    color: #{{ site.color.text }};
+    color: #{{ site.color.secondary }};
     background: #{{ site.color.primary }};
 }
 
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #{{ site.color.text }};
+    background-color: #{{ site.color.secondary }};
 }
 
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
@@ -528,7 +542,7 @@ header {
     border-color: #{{ site.color.secondary-dark }};
 }
 .navbar-default .navbar-nav>li>a, .navbar-default .navbar-brand {
-    color: #{{ site.color.text }};
+    color: #{{ site.color.secondary }};
     font-family: sketch_rockwellregular;
     text-transform: none;
 }
