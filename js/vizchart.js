@@ -47,14 +47,16 @@ new roughViz.Pie({
     element: '#experience', // container selection
     data: 'data/experience.csv',
     labels: 'Experience',
+    fillStyle: 'zigzag',
     values: 'Level',
     title: 'Experience',
     titleFontSize: '1.5rem',
     font: 'sketch_rockwellregular',
     margin: {top: 50, bottom: 100, left: 40, right: 100},
     roughness: 2,
-    strokeWidth: 3,
-    innerStrokeWidth: 3,
+    strokeWidth: 1,
+    innerStrokeWidth: 2,
+    colors:["#dc612c","#194e6d","#4ab19a","#48302b"]
     });
 
 /**
