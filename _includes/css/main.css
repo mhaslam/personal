@@ -563,6 +563,11 @@ hr.star-light,  hr.star-primary{
     border-color:#{{ site.color.secondary-dark }};
 }
 
+
+.roughexperience text{
+    background-color: yellow;
+    font-size: 1.1rem !important;
+  }
 /*END overide
 ======================*/
 
