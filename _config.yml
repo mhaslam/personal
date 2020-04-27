@@ -63,16 +63,12 @@ footer:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: 
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: 
-  - title: bitbucket
-    url: 
+  - title: linkedin
+    url: https://www.linkedin.com/in/malcolm-haslam-4017a82a/
   - title: github
-    url: 
+    url: https://github.com/mhaslam
+  - title: twitter
+    url: https://twitter.com/MalcolmHaslam
 
 
 # Postal address (add as many lines as necessary)
@@ -81,7 +77,11 @@ address:
   - line: Crolles, France
 
 # Credits content
-credits: ''
+credits: 'Thank you for all the inpiration (and openSource code) I used on this page. It is now a clean site with a simple minimalistic UX.  
+I till have a lot of ideas to implement so keep refreshing! 
+<br />
+Traduction française à venir.
+'
 
 # Build settings
 markdown: kramdown

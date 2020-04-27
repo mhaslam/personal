@@ -573,6 +573,26 @@ hr.star-light,  hr.star-primary{
 
 /*END Typewriter
 ======================*/
+#intro-text-container{
+
+        margin: 0;
+        position: absolute;
+        top: calc(50% + 150px);
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+}
+.hello-text {
+    width: fit-content;
+    margin: auto;
+}
+.hello-text h1 {
+    font-size: 1.25em;
+    font-weight: 300;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+}
 .typewriter {
     width: fit-content;
     margin: auto;

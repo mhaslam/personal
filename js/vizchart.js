@@ -115,7 +115,7 @@ sleep(500).then(() => {
       }
 
     };*/
-    Modal.init();
+    //Modal.init();
     
 });
 sleep(2500).then(() => {
