@@ -635,12 +635,13 @@ hr.star-light,  hr.star-primary{
 .features-container {
     display: flex;
     justify-content: space-between;
-    width: 200px;
+    width: 150px;
     height: 200px;
-    padding: 64px 76px 0px 76px;
+    /*padding: 64px 76px 0px 76px;*/
     /* background: tomato; */
     transition: .3s ease-in-out;
     margin: auto;
+    padding: 64px 50px 0px 50px;
 }
 
 
